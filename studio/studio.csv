@@ -1,6 +1,6 @@
 Designator,Comment,Parameter 1,nBlocksParameter1,Parameter 2,nBlocksParameter2,Parameter 3,nBlocksParameter3,ComponentLink1URL
 
-"N1","Ticker","","1000","","","","","https://github.com/nBlocksStudioNodes/nblocks_ticker"
-"N2","Counter","AutoResetValue","10","","","","","https://github.com/nBlocksStudioNodes/nblocks_counter"
-"N3","StringFormat","formatString","""Distance = %d cm\n ""","","","","","https://github.com/nBlocksStudioNodes/nblocks_stringformat"
-"N4","OLEDisplay","pinSDA","p28","pinSCL","p27","pinRST","NC","https://github.com/nBlocksStudioNodes/nblocks_oledisplay"
+"N1","Ticker","","100","","","","","https://github.com/nBlocksStudioNodes/nblocks_ticker"
+"N2","Counter","AutoResetValue","30000","","","","","https://github.com/nBlocksStudioNodes/nblocks_counter"
+"N3","StringFormat","formatString","""Counter value=%d \r ""","","","","","https://github.com/nBlocksStudioNodes/nblocks_stringformat"
+"N4","OLEDisplay","pinSDA","p9","pinSCL","p10","pinRST","p27","https://github.com/nBlocksStudioNodes/nblocks_oledisplay"
