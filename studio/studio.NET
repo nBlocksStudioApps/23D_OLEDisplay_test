@@ -1,0 +1,24 @@
+Wire List
+
+<<< Component List >>>
+Ticker                          N1             
+Counter                         N2             
+StringFormat                    N3             
+OLEDisplay                      N4             
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00004] NetN3_2
+        N3         2       OUT            OUTPUT      StringFormat
+        N4         1       value          INPUT       OLEDisplay
+
+[00003] NetN2_3
+        N2         3       OUT            OUTPUT      Counter
+        N3         1       IN             INPUT       StringFormat
+
+[00001] NetN1_1
+        N1         1       OUT            OUTPUT      Ticker
+        N2         1       COUNT-IN       INPUT       Counter
+
